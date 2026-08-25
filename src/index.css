@@ -12,10 +12,9 @@
 	--color-foreground: var(--color-amber-950);
 }
 
-/* Override the variables to create a dark theme */
 .dark {
-	--color-background: var(--color-amber-950);
-	--color-foreground: var(--color-white);
+	--color-background: var(--color-stone-950);
+	--color-foreground: var(--color-amber-50);
 }
 
 #root {
