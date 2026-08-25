@@ -7,7 +7,14 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fb:deploy": "npm run build && firebase deploy",
+    "fb:rules:database": "firebase deploy --only database",
+    "fb:rules:firestore": "firebase deploy --only firestore:rules",
+    "fb:rules:storage": "firebase deploy --only storage",
+    "fb:rules": "firebase deploy --only database,firestore:rules,storage",
+    "fb:indexes": "firebase deploy --only firestore:indexes",
+    "fb:all": "firebase deploy --only firestore:database,rules,firestore:indexes,storage"
   },
   "dependencies": {
     "@moondreamsdev/dreamer-ui": "^1.7.26",

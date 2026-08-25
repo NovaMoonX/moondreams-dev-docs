@@ -1,56 +1,53 @@
 /** Necessary theme styles for Dreamer UI library - Customize as desired! */
 
-/** Necessary theme styles for Dreamer UI library - Customize as desired! */
-
 @theme dreamer-ui {
-  --color-primary: var(--color-zinc-900);
-  --color-primary-foreground: var(--color-zinc-50);
-  --color-secondary: var(--color-zinc-300);
-  --color-secondary-foreground: var(--color-zinc-900);
-  --color-muted: var(--color-zinc-100);
-  --color-muted-foreground: var(--color-zinc-500);
+  --color-primary: var(--color-amber-900);
+  --color-primary-foreground: var(--color-white);
+  --color-secondary: var(--color-amber-300);
+  --color-secondary-foreground: var(--color-amber-900);
+  --color-muted: var(--color-amber-100);
+  --color-muted-foreground: var(--color-amber-500);
 
-  --color-accent: var(--color-zinc-200);
-  --color-accent-foreground: var(--color-zinc-900);
+  --color-accent: var(--color-amber-200);
+  --color-accent-foreground: var(--color-amber-900);
 
   --color-success: var(--color-emerald-600);
   --color-success-foreground: var(--color-white);
   --color-warning: var(--color-amber-500);
-  --color-warning-foreground: var(--color-zinc-950);
+  --color-warning-foreground: var(--color-amber-950);
   --color-destructive: var(--color-red-600);
   --color-destructive-foreground: var(--color-white);
 
-  --color-border: var(--color-zinc-200); /* for input/textarea borders and dividers */
+  --color-border: var(--color-amber-200); /* for input/textarea borders and dividers */
   --color-popover: var(--color-white); /* for popover backgrounds (popover, dropdowns, modals, etc) */
-  --color-popover-foreground: var(--color-zinc-900); /* for popover text */
+  --color-popover-foreground: var(--color-amber-900); /* for popover text */
 
-  --color-tooltip: var(--color-zinc-900);
-  --color-tooltip-foreground: var(--color-zinc-50);
+  --color-tooltip: var(--color-amber-900);
+  --color-tooltip-foreground: var(--color-white);
 }
 
 .dark {
-  --color-primary: var(--color-zinc-50);
-  --color-primary-foreground: var(--color-zinc-900);
-  --color-secondary: var(--color-zinc-800);
-  --color-secondary-foreground: var(--color-zinc-50);
-  --color-muted: var(--color-zinc-800);
-  --color-muted-foreground: var(--color-zinc-400);
+  --color-primary: var(--color-white);
+  --color-primary-foreground: var(--color-amber-900);
+  --color-secondary: var(--color-amber-800);
+  --color-secondary-foreground: var(--color-white);
+  --color-muted: var(--color-amber-800);
+  --color-muted-foreground: var(--color-amber-400);
 
-  --color-accent: var(--color-zinc-800);
-  --color-accent-foreground: var(--color-zinc-50);
+  --color-accent: var(--color-amber-800);
+  --color-accent-foreground: var(--color-white);
 
   --color-success: var(--color-emerald-500);
-  --color-success-foreground: var(--color-zinc-950);
+  --color-success-foreground: var(--color-amber-950);
   --color-warning: var(--color-amber-400);
-  --color-warning-foreground: var(--color-zinc-950);
+  --color-warning-foreground: var(--color-amber-950);
   --color-destructive: var(--color-red-500);
   --color-destructive-foreground: var(--color-white);
 
-  --color-border: var(--color-zinc-800); /* for input/textarea borders and dividers */
-  --color-popover: var(--color-zinc-900); /* for popover backgrounds (popover, dropdowns, modals, etc) */
-  --color-popover-foreground: var(--color-zinc-50); /* for popover text */
+  --color-border: var(--color-amber-800); /* for input/textarea borders and dividers */
+  --color-popover: var(--color-amber-900); /* for popover backgrounds (popover, dropdowns, modals, etc) */
+  --color-popover-foreground: var(--color-white); /* for popover text */
 
-  --color-tooltip: var(--color-zinc-100);
-  --color-tooltip-foreground: var(--color-zinc-900);
+  --color-tooltip: var(--color-amber-100);
+  --color-tooltip-foreground: var(--color-amber-900);
 }
-

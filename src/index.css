@@ -4,22 +4,22 @@
 
 @utility page {
 	/* use dynamic viewport to handle browser UI (i.e. search bar, keyboard, etc) obscuring viewport */
-  @apply min-h-dvh w-dvw; 
+  @apply min-h-dvh w-dvw px-4 pb-12 pt-16; 
 }
 
 @theme app {
-	--color-background: var(--color-slate-100);
-	--color-foreground: var(--color-slate-900);
+	--color-background: var(--color-white);
+	--color-foreground: var(--color-amber-950);
 }
 
 /* Override the variables to create a dark theme */
 .dark {
-	--color-background: var(--color-slate-900);
-	--color-foreground: var(--color-slate-100);
+	--color-background: var(--color-amber-950);
+	--color-foreground: var(--color-white);
 }
 
 #root {
-  @apply page bg-background text-foreground;
+  @apply min-h-dvh w-dvw bg-background text-foreground;
 }
 
 body {
