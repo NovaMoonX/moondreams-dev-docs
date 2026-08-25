@@ -170,6 +170,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
     setIsDisplayNameUpdating(false);
   }, []);
 
+  console.log('loading', loading); // REMOVE
   const value = useMemo<AuthContextValue>(
     () => ({
       user,

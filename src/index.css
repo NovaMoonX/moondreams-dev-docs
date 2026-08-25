@@ -1,24 +1,28 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @utility page {
-	/* use dynamic viewport to handle browser UI (i.e. search bar, keyboard, etc) obscuring viewport */
-  @apply min-h-dvh w-dvw px-4 pb-12 pt-16; 
+  /* use dynamic viewport to handle browser UI (i.e. search bar, keyboard, etc) obscuring viewport */
+  @apply min-h-dvh w-dvw px-4 pt-16 pb-12;
 }
 
 @theme app {
-	--color-background: var(--color-white);
-	--color-foreground: var(--color-amber-950);
+  --color-background: var(--color-white);
+  --color-foreground: var(--color-amber-950);
 }
 
 .dark {
-	--color-background: var(--color-stone-950);
-	--color-foreground: var(--color-amber-50);
+  --color-background: var(
+    --color-stone-950
+  ); /* warm near-black instead of saturated amber-950 */
+  --color-foreground: var(
+    --color-amber-50
+  ); /* off-white with a touch of brand warmth, not pure white */
 }
 
-#root {
-  @apply min-h-dvh w-dvw bg-background text-foreground;
+Ø #root {
+  @apply bg-background text-foreground min-h-dvh w-dvw;
 }
 
 body {
@@ -28,18 +32,18 @@ body {
 }
 
 html {
-	@apply bg-background
+  @apply bg-background;
 }
 
 /* Smooth height transitions for when keyboard appears on mobile */
-html, body {
+html,
+body {
   transition: height 0.3s ease;
 }
 
-
 /* Dreamer UI styles */
-@import "@moondreamsdev/dreamer-ui/styles"; /* non-TailwindCSS styles */
+@import '@moondreamsdev/dreamer-ui/styles'; /* non-TailwindCSS styles */
 @import './dreamer-ui.css'; /* customizable, theme styles */
 
 /* for TailwindCSS styles in library to be processed */
-@source "../node_modules/@moondreamsdev/dreamer-ui/dist/**/*.{js,jsx,ts,tsx}";
+@source '../node_modules/@moondreamsdev/dreamer-ui/dist/**/*.{js,jsx,ts,tsx}';
