@@ -13,13 +13,12 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      // About page (lazy loaded)
       {
-        path: 'about',
+        path: 'd/:documentId',
         HydrateFallback: Loading,
         lazy: async () => {
-          const { default: About } = await import('@screens/About');
-          return { Component: About };
+          const { default: Document } = await import('@screens/Document');
+          return { Component: Document };
         },
       },
     ],

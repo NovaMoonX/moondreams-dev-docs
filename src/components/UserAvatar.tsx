@@ -1,5 +1,5 @@
 import { getInitials } from '@/utils/accountUtils';
-import { Avatar } from '@moondreamsdev/dreamer-ui/components';
+import { Avatar, AvatarProps } from '@moondreamsdev/dreamer-ui/components';
 
 export type UserAvatarData = {
   uid?: string;
@@ -8,18 +8,22 @@ export type UserAvatarData = {
   photoURL?: string | null;
 };
 
-type UserAvatarProps = {
+export interface UserAvatarProps extends AvatarProps {
   user?: UserAvatarData | null;
-  size?: 'xs' | 'sm' | 'md' | 'lg';
-  className?: string;
-};
+}
 
-function UserAvatar({ user, size = 'sm', className }: UserAvatarProps) {
+function UserAvatar({
+  user,
+  size = 'sm',
+  className,
+  ...rest
+}: UserAvatarProps) {
   const displayName = user?.displayName?.trim() || user?.email || '??';
   const initials = user?.photoURL ? undefined : getInitials(displayName);
 
   return (
     <Avatar
+      {...rest}
       src={user?.photoURL ?? undefined}
       alt={displayName}
       title={displayName}

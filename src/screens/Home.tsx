@@ -1,18 +1,21 @@
+import MainHeader from '@/ui/MainHeader';
+import { APP_DESCRIPTION, APP_TITLE } from '@lib/app';
 import { Button } from '@moondreamsdev/dreamer-ui/components';
-import { APP_TITLE, APP_DESCRIPTION } from '@lib/app';
-import AppEditor from '@/components/AppEditor';
 
 function Home() {
-	return (
-		<div className='page flex flex-col items-center justify-center'>
-			<div className='text-center space-y-6 max-w-2xl px-4'>
-				<h1 className='text-5xl md:text-6xl font-bold'>{APP_TITLE}</h1>
-				<p className='text-lg md:text-xl text-foreground/80'>{APP_DESCRIPTION}</p>
-				<Button href='/about'>Learn More</Button>
-			</div>
-			<AppEditor />
-		</div>
-	);
+  return (
+    <div className='page flex flex-col items-center justify-center'>
+      <MainHeader />
+
+      <div className='max-w-2xl space-y-6 px-4 text-center'>
+        <h1 className='text-5xl font-bold md:text-6xl'>{APP_TITLE}</h1>
+        <p className='text-foreground/80 text-lg md:text-xl'>
+          {APP_DESCRIPTION}
+        </p>
+        <Button href='/d/123'>View Doc</Button>
+      </div>
+    </div>
+  );
 }
 
 export default Home;
