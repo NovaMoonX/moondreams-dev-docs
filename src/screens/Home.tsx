@@ -1,5 +1,6 @@
 import { Button } from '@moondreamsdev/dreamer-ui/components';
 import { APP_TITLE, APP_DESCRIPTION } from '@lib/app';
+import AppEditor from '@/components/AppEditor';
 
 function Home() {
 	return (
@@ -9,6 +10,7 @@ function Home() {
 				<p className='text-lg md:text-xl text-foreground/80'>{APP_DESCRIPTION}</p>
 				<Button href='/about'>Learn More</Button>
 			</div>
+			<AppEditor />
 		</div>
 	);
 }

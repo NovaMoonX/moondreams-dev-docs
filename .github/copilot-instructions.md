@@ -122,6 +122,7 @@ import { helper } from '@utils/helper';
 
 ### 10. Available Import Aliases
 - `@/` → `src/`
+- `@_tiptap_/` → `src/_tiptap/`
 - `@components/` → `src/components/`
 - `@contexts/` → `src/contexts/`
 - `@hooks/` → `src/hooks/`
