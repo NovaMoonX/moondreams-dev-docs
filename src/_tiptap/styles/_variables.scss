@@ -16,108 +16,108 @@
   ******************/
 
   /* Gray alpha (light mode) */
-  --tt-gray-light-a-50: rgba(56, 56, 56, 0.04);
-  --tt-gray-light-a-100: rgba(15, 22, 36, 0.05);
-  --tt-gray-light-a-200: rgba(37, 39, 45, 0.1);
-  --tt-gray-light-a-300: rgba(47, 50, 55, 0.2);
-  --tt-gray-light-a-400: rgba(40, 44, 51, 0.42);
-  --tt-gray-light-a-500: rgba(52, 55, 60, 0.64);
-  --tt-gray-light-a-600: rgba(36, 39, 46, 0.78);
-  --tt-gray-light-a-700: rgba(35, 37, 42, 0.87);
-  --tt-gray-light-a-800: rgba(30, 32, 36, 0.95);
-  --tt-gray-light-a-900: rgba(29, 30, 32, 0.98);
+  --tt-gray-light-a-50: rgba(28, 25, 23, 0.04);
+  --tt-gray-light-a-100: rgba(28, 25, 23, 0.05);
+  --tt-gray-light-a-200: rgba(28, 25, 23, 0.1);
+  --tt-gray-light-a-300: rgba(28, 25, 23, 0.2);
+  --tt-gray-light-a-400: rgba(28, 25, 23, 0.42);
+  --tt-gray-light-a-500: rgba(28, 25, 23, 0.64);
+  --tt-gray-light-a-600: rgba(28, 25, 23, 0.78);
+  --tt-gray-light-a-700: rgba(28, 25, 23, 0.87);
+  --tt-gray-light-a-800: rgba(28, 25, 23, 0.95);
+  --tt-gray-light-a-900: rgba(28, 25, 23, 0.98);
 
   /* Gray (light mode) */
-  --tt-gray-light-50: rgba(250, 250, 250, 1);
-  --tt-gray-light-100: rgba(244, 244, 245, 1);
-  --tt-gray-light-200: rgba(234, 234, 235, 1);
-  --tt-gray-light-300: rgba(213, 214, 215, 1);
-  --tt-gray-light-400: rgba(166, 167, 171, 1);
-  --tt-gray-light-500: rgba(125, 127, 130, 1);
-  --tt-gray-light-600: rgba(83, 86, 90, 1);
-  --tt-gray-light-700: rgba(64, 65, 69, 1);
-  --tt-gray-light-800: rgba(44, 45, 48, 1);
-  --tt-gray-light-900: rgba(34, 35, 37, 1);
+  --tt-gray-light-50: rgba(250, 250, 249, 1);
+  --tt-gray-light-100: rgba(245, 245, 244, 1);
+  --tt-gray-light-200: rgba(231, 229, 228, 1);
+  --tt-gray-light-300: rgba(214, 211, 209, 1);
+  --tt-gray-light-400: rgba(168, 162, 158, 1);
+  --tt-gray-light-500: rgba(120, 113, 108, 1);
+  --tt-gray-light-600: rgba(87, 83, 78, 1);
+  --tt-gray-light-700: rgba(68, 64, 60, 1);
+  --tt-gray-light-800: rgba(41, 37, 36, 1);
+  --tt-gray-light-900: rgba(28, 25, 23, 1);
 
   /* Gray alpha (dark mode) */
-  --tt-gray-dark-a-50: rgba(232, 232, 253, 0.05);
-  --tt-gray-dark-a-100: rgba(231, 231, 243, 0.07);
-  --tt-gray-dark-a-200: rgba(238, 238, 246, 0.11);
-  --tt-gray-dark-a-300: rgba(239, 239, 245, 0.22);
-  --tt-gray-dark-a-400: rgba(244, 244, 255, 0.37);
-  --tt-gray-dark-a-500: rgba(236, 238, 253, 0.5);
-  --tt-gray-dark-a-600: rgba(247, 247, 253, 0.64);
-  --tt-gray-dark-a-700: rgba(251, 251, 254, 0.75);
-  --tt-gray-dark-a-800: rgba(253, 253, 253, 0.88);
-  --tt-gray-dark-a-900: rgba(255, 255, 255, 0.96);
+  --tt-gray-dark-a-50: rgba(250, 250, 249, 0.05);
+  --tt-gray-dark-a-100: rgba(250, 250, 249, 0.07);
+  --tt-gray-dark-a-200: rgba(250, 250, 249, 0.11);
+  --tt-gray-dark-a-300: rgba(250, 250, 249, 0.22);
+  --tt-gray-dark-a-400: rgba(250, 250, 249, 0.37);
+  --tt-gray-dark-a-500: rgba(250, 250, 249, 0.5);
+  --tt-gray-dark-a-600: rgba(250, 250, 249, 0.64);
+  --tt-gray-dark-a-700: rgba(250, 250, 249, 0.75);
+  --tt-gray-dark-a-800: rgba(250, 250, 249, 0.88);
+  --tt-gray-dark-a-900: rgba(250, 250, 249, 0.96);
 
   /* Gray (dark mode) */
-  --tt-gray-dark-50: rgba(25, 25, 26, 1);
-  --tt-gray-dark-100: rgba(32, 32, 34, 1);
-  --tt-gray-dark-200: rgba(45, 45, 47, 1);
-  --tt-gray-dark-300: rgba(70, 70, 73, 1);
-  --tt-gray-dark-400: rgba(99, 99, 105, 1);
-  --tt-gray-dark-500: rgba(124, 124, 131, 1);
-  --tt-gray-dark-600: rgba(163, 163, 168, 1);
-  --tt-gray-dark-700: rgba(192, 192, 195, 1);
-  --tt-gray-dark-800: rgba(224, 224, 225, 1);
-  --tt-gray-dark-900: rgba(245, 245, 245, 1);
+  --tt-gray-dark-50: rgba(12, 10, 9, 1);
+  --tt-gray-dark-100: rgba(28, 25, 23, 1);
+  --tt-gray-dark-200: rgba(41, 37, 36, 1);
+  --tt-gray-dark-300: rgba(68, 64, 60, 1);
+  --tt-gray-dark-400: rgba(87, 83, 78, 1);
+  --tt-gray-dark-500: rgba(120, 113, 108, 1);
+  --tt-gray-dark-600: rgba(168, 162, 158, 1);
+  --tt-gray-dark-700: rgba(214, 211, 209, 1);
+  --tt-gray-dark-800: rgba(231, 229, 228, 1);
+  --tt-gray-dark-900: rgba(250, 250, 249, 1);
 
   /* Brand colors */
-  --tt-brand-color-50: rgba(239, 238, 255, 1);
-  --tt-brand-color-100: rgba(222, 219, 255, 1);
-  --tt-brand-color-200: rgba(195, 189, 255, 1);
-  --tt-brand-color-300: rgba(157, 138, 255, 1);
-  --tt-brand-color-400: rgba(122, 82, 255, 1);
-  --tt-brand-color-500: rgba(98, 41, 255, 1);
-  --tt-brand-color-600: rgba(84, 0, 229, 1);
-  --tt-brand-color-700: rgba(75, 0, 204, 1);
-  --tt-brand-color-800: rgba(56, 0, 153, 1);
-  --tt-brand-color-900: rgba(43, 25, 102, 1);
-  --tt-brand-color-950: hsla(257, 100%, 9%, 1);
+  --tt-brand-color-50: rgba(255, 251, 235, 1);
+  --tt-brand-color-100: rgba(254, 243, 199, 1);
+  --tt-brand-color-200: rgba(253, 230, 138, 1);
+  --tt-brand-color-300: rgba(252, 211, 77, 1);
+  --tt-brand-color-400: rgba(251, 191, 36, 1);
+  --tt-brand-color-500: rgba(245, 158, 11, 1);
+  --tt-brand-color-600: rgba(217, 119, 6, 1);
+  --tt-brand-color-700: rgba(180, 83, 9, 1);
+  --tt-brand-color-800: rgba(146, 64, 14, 1);
+  --tt-brand-color-900: rgba(120, 53, 15, 1);
+  --tt-brand-color-950: hsla(21, 92%, 14%, 1);
 
   /* Green */
-  --tt-color-green-inc-5: hsla(129, 100%, 97%, 1);
-  --tt-color-green-inc-4: hsla(129, 100%, 92%, 1);
-  --tt-color-green-inc-3: hsla(131, 100%, 86%, 1);
-  --tt-color-green-inc-2: hsla(133, 98%, 78%, 1);
-  --tt-color-green-inc-1: hsla(137, 99%, 70%, 1);
-  --tt-color-green-base: hsla(147, 99%, 50%, 1);
-  --tt-color-green-dec-1: hsla(147, 97%, 41%, 1);
-  --tt-color-green-dec-2: hsla(146, 98%, 32%, 1);
-  --tt-color-green-dec-3: hsla(146, 100%, 24%, 1);
-  --tt-color-green-dec-4: hsla(144, 100%, 16%, 1);
-  --tt-color-green-dec-5: hsla(140, 100%, 9%, 1);
+  --tt-color-green-inc-5: hsla(149, 90%, 97%, 1);
+  --tt-color-green-inc-4: hsla(149, 90%, 92%, 1);
+  --tt-color-green-inc-3: hsla(151, 90%, 86%, 1);
+  --tt-color-green-inc-2: hsla(153, 88%, 78%, 1);
+  --tt-color-green-inc-1: hsla(157, 89%, 70%, 1);
+  --tt-color-green-base: hsla(167, 89%, 50%, 1);
+  --tt-color-green-dec-1: hsla(167, 87%, 41%, 1);
+  --tt-color-green-dec-2: hsla(166, 88%, 32%, 1);
+  --tt-color-green-dec-3: hsla(166, 90%, 24%, 1);
+  --tt-color-green-dec-4: hsla(164, 90%, 16%, 1);
+  --tt-color-green-dec-5: hsla(160, 90%, 9%, 1);
 
   /* Yellow */
-  --tt-color-yellow-inc-5: hsla(50, 100%, 97%, 1);
-  --tt-color-yellow-inc-4: hsla(50, 100%, 91%, 1);
-  --tt-color-yellow-inc-3: hsla(50, 100%, 84%, 1);
-  --tt-color-yellow-inc-2: hsla(50, 100%, 77%, 1);
-  --tt-color-yellow-inc-1: hsla(50, 100%, 68%, 1);
-  --tt-color-yellow-base: hsla(52, 100%, 50%, 1);
-  --tt-color-yellow-dec-1: hsla(52, 100%, 41%, 1);
-  --tt-color-yellow-dec-2: hsla(52, 100%, 32%, 1);
-  --tt-color-yellow-dec-3: hsla(52, 100%, 24%, 1);
-  --tt-color-yellow-dec-4: hsla(51, 100%, 16%, 1);
-  --tt-color-yellow-dec-5: hsla(50, 100%, 9%, 1);
+  --tt-color-yellow-inc-5: hsla(40, 100%, 97%, 1);
+  --tt-color-yellow-inc-4: hsla(40, 100%, 91%, 1);
+  --tt-color-yellow-inc-3: hsla(40, 100%, 84%, 1);
+  --tt-color-yellow-inc-2: hsla(40, 100%, 77%, 1);
+  --tt-color-yellow-inc-1: hsla(40, 100%, 68%, 1);
+  --tt-color-yellow-base: hsla(42, 100%, 50%, 1);
+  --tt-color-yellow-dec-1: hsla(42, 100%, 41%, 1);
+  --tt-color-yellow-dec-2: hsla(42, 100%, 32%, 1);
+  --tt-color-yellow-dec-3: hsla(42, 100%, 24%, 1);
+  --tt-color-yellow-dec-4: hsla(41, 100%, 16%, 1);
+  --tt-color-yellow-dec-5: hsla(40, 100%, 9%, 1);
 
   /* Red */
-  --tt-color-red-inc-5: hsla(11, 100%, 96%, 1);
-  --tt-color-red-inc-4: hsla(11, 100%, 88%, 1);
-  --tt-color-red-inc-3: hsla(10, 100%, 80%, 1);
-  --tt-color-red-inc-2: hsla(9, 100%, 73%, 1);
-  --tt-color-red-inc-1: hsla(7, 100%, 64%, 1);
-  --tt-color-red-base: hsla(7, 100%, 54%, 1);
-  --tt-color-red-dec-1: hsla(7, 100%, 41%, 1);
-  --tt-color-red-dec-2: hsla(5, 100%, 32%, 1);
-  --tt-color-red-dec-3: hsla(4, 100%, 24%, 1);
-  --tt-color-red-dec-4: hsla(3, 100%, 16%, 1);
-  --tt-color-red-dec-5: hsla(1, 100%, 9%, 1);
+  --tt-color-red-inc-5: hsla(7, 80%, 96%, 1);
+  --tt-color-red-inc-4: hsla(7, 80%, 88%, 1);
+  --tt-color-red-inc-3: hsla(6, 80%, 80%, 1);
+  --tt-color-red-inc-2: hsla(5, 80%, 73%, 1);
+  --tt-color-red-inc-1: hsla(3, 80%, 64%, 1);
+  --tt-color-red-base: hsla(3, 80%, 54%, 1);
+  --tt-color-red-dec-1: hsla(3, 80%, 41%, 1);
+  --tt-color-red-dec-2: hsla(1, 80%, 32%, 1);
+  --tt-color-red-dec-3: hsla(0, 80%, 24%, 1);
+  --tt-color-red-dec-4: hsla(0, 80%, 16%, 1);
+  --tt-color-red-dec-5: hsla(0, 80%, 9%, 1);
 
   /* Basic colors */
   --white: rgba(255, 255, 255, 1);
-  --black: rgba(14, 14, 17, 1);
+  --black: rgba(12, 10, 9, 1);
   --transparent: rgba(255, 255, 255, 0);
 
   /****************** 
@@ -126,10 +126,10 @@
 
   /* Shadows Light */
   --tt-shadow-elevated-md:
-    0px 16px 48px 0px rgba(17, 24, 39, 0.04),
-    0px 12px 24px 0px rgba(17, 24, 39, 0.04),
-    0px 6px 8px 0px rgba(17, 24, 39, 0.02),
-    0px 2px 3px 0px rgba(17, 24, 39, 0.02);
+    0px 16px 48px 0px rgba(28, 25, 23, 0.04),
+    0px 12px 24px 0px rgba(28, 25, 23, 0.04),
+    0px 6px 8px 0px rgba(28, 25, 23, 0.02),
+    0px 2px 3px 0px rgba(28, 25, 23, 0.02);
 
   /************************************************** 
        Radius variables 
@@ -185,7 +185,7 @@
   --tt-sidebar-bg-color: var(--tt-gray-light-100);
   --tt-scrollbar-color: var(--tt-gray-light-a-200);
   --tt-cursor-color: var(--tt-brand-color-500);
-  --tt-selection-color: rgba(157, 138, 255, 0.2);
+  --tt-selection-color: rgba(252, 211, 77, 0.2);
   --tt-card-bg-color: var(--white);
   --tt-card-border-color: var(--tt-gray-light-a-100);
 }
@@ -198,13 +198,13 @@
   --tt-sidebar-bg-color: var(--tt-gray-dark-100);
   --tt-scrollbar-color: var(--tt-gray-dark-a-200);
   --tt-cursor-color: var(--tt-brand-color-400);
-  --tt-selection-color: rgba(122, 82, 255, 0.2);
+  --tt-selection-color: rgba(251, 191, 36, 0.2);
   --tt-card-bg-color: var(--tt-gray-dark-50);
   --tt-card-border-color: var(--tt-gray-dark-a-50);
 
   --tt-shadow-elevated-md:
-    0px 16px 48px 0px rgba(0, 0, 0, 0.5), 0px 12px 24px 0px rgba(0, 0, 0, 0.24),
-    0px 6px 8px 0px rgba(0, 0, 0, 0.22), 0px 2px 3px 0px rgba(0, 0, 0, 0.12);
+    0px 16px 48px 0px rgba(12, 10, 9, 0.5), 0px 12px 24px 0px rgba(12, 10, 9, 0.24),
+    0px 6px 8px 0px rgba(12, 10, 9, 0.22), 0px 2px 3px 0px rgba(12, 10, 9, 0.12);
 }
 
 /* Text colors */
@@ -254,7 +254,7 @@
 
 /* Highlight colors */
 :root {
-  --tt-color-highlight-yellow: #fef9c3;
+  --tt-color-highlight-yellow: #f8f095;
   --tt-color-highlight-green: #dcfce7;
   --tt-color-highlight-blue: #e0f2fe;
   --tt-color-highlight-purple: #f3e8ff;
@@ -264,7 +264,7 @@
   --tt-color-highlight-orange: rgb(251, 236, 221);
   --tt-color-highlight-pink: rgb(252, 241, 246);
 
-  --tt-color-highlight-yellow-contrast: #fbe604;
+  --tt-color-highlight-yellow-contrast: #e0cd03;
   --tt-color-highlight-green-contrast: #c7fad8;
   --tt-color-highlight-blue-contrast: #ceeafd;
   --tt-color-highlight-purple-contrast: #e4ccff;
@@ -276,7 +276,7 @@
 }
 
 .dark {
-  --tt-color-highlight-yellow: #6b6524;
+  --tt-color-highlight-yellow: #726b17;
   --tt-color-highlight-green: #509568;
   --tt-color-highlight-blue: #6e92aa;
   --tt-color-highlight-purple: #583e74;
@@ -286,7 +286,7 @@
   --tt-color-highlight-orange: rgb(92, 59, 35);
   --tt-color-highlight-pink: rgb(78, 44, 60);
 
-  --tt-color-highlight-yellow-contrast: #58531e;
+  --tt-color-highlight-yellow-contrast: #494517;
   --tt-color-highlight-green-contrast: #47855d;
   --tt-color-highlight-blue-contrast: #5e86a1;
   --tt-color-highlight-purple-contrast: #4c3564;
